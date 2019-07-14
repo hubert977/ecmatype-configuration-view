@@ -1,0 +1,33 @@
+$welcome-color: grey;
+.first-page-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $welcome-color;
+}
+.sublogo
+{
+    font-size: 30px;
+}
+.configure-system-paragraph
+{
+    margin-top: 150px;
+}
+.section-image
+{
+    .pen-image
+{
+    width: 128px;
+    height: 128px;
+    background-image: url('../../assets/pen.png');
+    margin-top: 50px;
+}
+}
+.starting-configuration
+{
+    margin-top: 200px;
+}
+

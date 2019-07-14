@@ -1,0 +1,40 @@
+header 
+{
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);;
+    -webkit-box-shadow: 0px 1px 2px -1px grey;
+    -moz-box-shadow: 0px 1px 2px -1px grey;
+    box-shadow: 0px 1px 2px -1px grey;
+    .logo
+    {
+        padding-top: 35px;
+        text-align: center;
+        grid-column: 5/9;
+        grid-row: 1/1;
+        font-size: 40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 100;
+        color: white;
+        text-shadow: 1px 1px 1px black, 1px 5px;
+    }
+    .number-page
+    {
+        grid-column: 5/9;
+        grid-row: 2/2;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+    .number-page div
+    {
+        width: 32px;
+        height: 32px;
+        background-image: url('../../assets/drop-disable.png');
+    }
+    .drop-enable
+    {
+        background-image: url('../../assets/drop-enable.png');
+    }
+}
